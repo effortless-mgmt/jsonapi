@@ -1,6 +1,13 @@
 version: 2
+jobs:
+  deploy-job:
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "0f:e7:03:4a:78:4f:2a:03:12:fc:24:25:6e:a5:ad:05"
 deployment:
   latest:
     branch: master
     commands:
       - ../scripts/deploy.sh
+
