@@ -3,6 +3,9 @@ jobs:
   build:
     docker:
       - image: nginx
+  steps:
+    - checkout
+    - setup_remote_docker
   deploy-job:
     steps:
       - add_ssh_keys:
