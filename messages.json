@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "userId": 1,
+        "name": "John Doe",
+        "message": "Hello, how is the project going?",
+        "sent": "2018-10-01T10:00:00.000Z"
+    },
+    {
+        "id": 1,
+        "userId": 2,
+        "name": "Miranda Smith",
+        "message": "It's going great thanks, I'm almost done!",
+        "sent": "2018-10-02T13:57:12.412Z"
+    },
+    {
+        "id": 1,
+        "userId": 1,
+        "name": "John Doe",
+        "message": "Wauw already? I'm looking forward seeing the final product. See you tomorrow.",
+        "sent": "2018-10-02T23:10:02.123Z"
+    }
+]
