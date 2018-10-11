@@ -1,0 +1,6 @@
+version: 2
+deployment:
+  latest:
+    branch: master
+    commands:
+      - ../scripts/deploy.sh
