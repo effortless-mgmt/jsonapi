@@ -1,5 +1,8 @@
 version: 2
 jobs:
+  build:
+    docker:
+      - image: nginx
   deploy-job:
     steps:
       - add_ssh_keys:
