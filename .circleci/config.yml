@@ -10,3 +10,8 @@ deployment:
     branch: master
     commands:
       - ../scripts/deploy.sh
+workflows:
+  version: 2
+  deploy:
+    jobs:
+      - deployment
